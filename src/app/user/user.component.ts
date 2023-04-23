@@ -23,10 +23,6 @@ export class UserComponent implements OnInit {
         this.allUsers = changes;
         console.log(this.allUsers);
       });
-
-    // this.users$ = this.firestore
-    //   .collection('users')
-    //   .valueChanges() as Observable<User[]>;
   }
 
   openDialog() {
